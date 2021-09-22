@@ -77,6 +77,12 @@ h1{
 	}
 }
 
+@media screen and (max-width: 660px){
+	.menu-background{
+		background-position: center !important;
+	}
+}
+
 @media screen and (max-width: 395px){
 	.logo{
 		width: 70%;
