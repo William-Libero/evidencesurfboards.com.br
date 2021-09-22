@@ -36,46 +36,11 @@ h1{
 
 /* /////////////////////////////////////////////////////////// END RESET /////////////////////////////////////////////////////////////*/
 
-.container-contato{
-	width: 100%;
-	background-color: #31769F;
-	position: relative;
-	top:440px;
-	padding:14px 9%;
-	color:white;
-	float:left;
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    background-color: rgb(0,0,0,0.6);
 }
 
-.container-contato ul li{
-	margin-bottom:5px;
-	width: auto;
-	height:auto;
-}
-
-.container-rodape p {
-	float: left;
-	text-align: justify;
-}
-
-.container-rodape i{
-	color:white;
-}
-
-.container-rodape i:hover{
-	color:#31769F;
-}
-
-@media screen and (max-width: 990px){
-	.imgs-fabrica{
-		max-width: 80% !important;
-	}
-}
-
-@media screen and (max-width: 768px){
-	.imgs-fabrica{
-		max-width: 100% !important;
-	}
-}
 
 @media screen and (max-width: 395px){
 	.logo{

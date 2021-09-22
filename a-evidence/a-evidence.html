@@ -12,203 +12,123 @@
       	<link rel="stylesheet" href="css/style.css">
       	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
       	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-      	<link rel="icon" href="../imgs/logo-site.png">
+      	<link rel="icon" href="../imgs/favicon.ico">
       	<script  src="https://code.jquery.com/jquery-3.3.1.min.js"  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="  crossorigin="anonymous"></script>
-        <script  src="https://code.jquery.com/jquery-3.3.1.js"  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="  crossorigin="anonymous"></script>
-      	<!--<script  src="https://code.jquery.com/jquery-1.12.4.min.js"  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="  crossorigin="anonymous"></script>-->
-      	<!--[if lt IE 9]>
-
-			<link rel="stylesheet" type="text/css" media="all" href="style-ie.css"/>
-
-		<![endif]-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">		
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </head>
 
     <body>
-    	
-    	<nav class="menu-mobile">
- 			<ul>
-	    		<li><a href="../a-evidence/a-evidence.html"  class="mobile-evidence actual-active">A Evidence</a>
-                <!--DROPDOWN - A Evidence  E ICONE
-                <i class="fas fa-caret-down"></i>
+    	<nav class="navbar navbar-expand-lg navbar-dark justify-content-between" style="background-color:rgba(0,0,0); position: fixed; z-index: 16; width: 100%; top: 0;">
+			<a class="logo navbar-brand m-0" href="../index.html">
+				<!-- <div style="width:70%; height:80px; background-repeat:no-repeat; background-size:contain; background-position: center; background-image: url('imgs/logo-site2.png');"></div> -->
+				<img src="../imgs/logo-site2.png" width="100%" height="80px" class="d-inline-block align-top" alt="Evidence Surfboards">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" style="flex-grow: 0;" id="navbarNavAltMarkup">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link text-white" href="../index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="a-evidence.html"  class="mobile-evidence">A Evidence</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="../pranchas/pranchas.html" class="mobile-pranchas">Pranchas</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="../pronta-entrega/pronta-entrega.html">Pronta entrega</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="../contato/contato.html">Contato</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 
 
-                    <div class="submenu-mobile submenu-mobile-evidence">    
-                        <ul>
-                            <li><a href="a-evidence/a-evidence.html">A Evidence</a></li>
-                            <li><a href="#">Atletas</a></li>
-                            <li><a href="#">Galeria de midia</a></li>
-                        </ul>
-                    </div>-->
-                </li>
-
-    			<li><a href="../pranchas/pranchas.html" class="mobile-pranchas">Pranchas</a>
-
-    				<!--DROPDOWN Pranchas 
-			    	<div class="submenu-mobile submenu-mobile-pranchas">	
-			    		<ul>
-				    		<li><a href="#">A Evidence</a></li>
-				    		<li><a href="#">Atletas</a></li>
-				    		<li><a href="#">Galeria de midia</a></li>
-				    	</ul>
-			    	</div>-->
-    			</li>
-
-    			<li><a href="../encomendas/encomendas.html" class="mobile-servicos">Encomendas</a>
-                <!--DROPDOWN Serviços 
-                <i class="fas fa-caret-down"></i>
-
-
-                    <div class="submenu-mobile submenu-mobile-servicos">
-                        <ul>
-                            <li><a href="#">A Evidence</a></li>
-                            <li><a href="#">Atletas</a></li>
-                            <li><a href="#">Galeria de midia</a></li>
-                        </ul>
-                    </div>-->
-                </li>   
-
-                <!--
-    			<li><a href="#" class="mobile-produtos">Produtos</a><i class="fas fa-caret-down"></i>
-
-    				DROPDOWN Produtos 
-			    	<div class="submenu-mobile submenu-mobile-produtos">
-			    		<ul>
-				    		<li><a href="#">A Evidence</a></li>
-				    		<li><a href="#">Atletas</a></li>
-				    		<li><a href="#">Galeria de midia</a></li>
-				    	</ul>
-			    	</div>
-    			</li>	--> 	   		
-   				
-				<li><a href="../contato/contato.html">Contato</a></li>
-    		
-    		</ul>
-    	</nav>	
-
-    	<!-- COMEÇO CABECALHO LOGO, MENU VERSÃO PC E DROPDOWNS DOS ITENS DO MENU  -->
-    	<header class="cabecalho">
-    		<!-- LINK DA LOGO -->
-    		<a href="../index.html">
-    			<!-- DIV DA LOGO -->
-    			<div class="logo">
-    				<h1>Evidence Surfboards</h1>
-    			</div>
-    		</a>
-
-    		<!-- BOTÕES PARA O MENU VERSÃO MOBILE (OPEN E CLOSE) -->
-    		<button class="btn-menu-mobile"><i class="fas fa-bars"></i></button>
- 			<button class="btn-close-menu-mobile"><i class="fas fa-times"></i></button>
-
- 			<!-- COMEÇO NAV DO MENU VERSÃO PC (ITENS E DROPDOWNS) -->
-    		<nav class="menu">
-    			<ul>
-
-    				<li class="evidence">
-                        <a href="../a-evidence/a-evidence.html" class="actual-active">A Evidence</a>
-                        <!--DROPDOWN E ICONE 
-                        <i class="fas fa-caret-down"></i>
-
-                        <nav class="submenu-evidence">
-                            <ul>
-                                <li><a href="a-evidence/a-evidence.html">A Evidence</a></li>
-                                <li><a href="#">Atletas</a></li>
-                                <li><a href="#">Galeria de midia</a></li>
-                            </ul>
-                        </nav>-->
-                    </li>
-
-    				<li class="pranchas"><a href="../pranchas/pranchas.html">Pranchas</a>
-    					
-    					<!--DROPDOWN 
-    					<nav class="submenu-pranchas">
-	    					<ul>
-			    				<li><a href="#">A Evidence</a></li>
-			    				<li><a href="#">Atletas</a></li>
-			    				<li><a href="#">Galeria de midia</a></li>
-	    					</ul>
-	    				</nav>-->
-    				</li>
-
-    				<li class="servico"><a href="../encomendas/encomendas.html">Encomendas</a>
-                    <!--DROPDOWN  E ICONE 
-                    <i class="fas fa-caret-down"></i>
-
-                        <nav class="submenu-servico">
-                            <ul>
-                                <li><a href="#">A Evidence</a></li>
-                                <li><a href="#">Atletas</a></li>
-                                <li><a href="#">Galeria de midia</a></li>
-                            </ul>
-                        </nav>-->
-                    </li>
-
-                    <!--
-    				<li class="produtos"><a href="#">Produtos</a><i class="fas fa-caret-down"></i>
-
-    					DROPDOWN 
-    					<nav class="submenu-produtos">
-	    					<ul>
-			    				<li><a href="#">A Evidence</a></li>
-			    				<li><a href="#">Atletas</a></li>
-			    				<li><a href="#">Galeria de midia</a></li>
-	    					</ul>
-	    				</nav>
-    				</li>-->
-
-    				<li><a href="../contato/contato.html">Contato</a></li>
-
-    			</ul>
-    		</nav>
-    	</header>
-
-    	<div class="menu-background">
+    	<div class="menu-background" style="margin-top: 106px;background-repeat:no-repeat; background-size:cover; background-position: 0% 61%;background-image: url(../../imgs/img-slider/surf-08.jpg);width: 100%;height: 200px;">
     	</div>
 
     	<main class="main">
-    		<div class="container-aevidence">
-    			<h2>A Evidence</h2>
-    			<p>A Evidence Surfboards tem como shaper e designer Ricardo Fornas, que começou sua jornada no surf em uma das melhores empresas da época e esta há 20 anos no mercado de pranchas. 
-                Desde o começo com muita responsabilidade e empenho aprendeu os processos de fabricação de pranchas de todos os modelos e estilos, para em 2013 com grande bagagem profissional inaugurar a sua própria marca, a Evidence Surfboards.</p><br>
-
-    			<p>Durante o processo de construção de sua futura fábrica o shaper Ricardo Fornas pensava em um modelo de atendimento que abrangesse todos os tipos e características de surf de seus futuros clientes, desta forma dando espaço para que o cliente tenha total liberdade ao descrever sua prancha e portanto deixando-o a livre para encomendar a prancha de seus sonhos.</p><br>
-
-    			<p></p>
-    		</div>
-
-
-    			<div class="container-imgs">
-                    <h5>Por dentro da fábrica Evidence:</h5>
-                    <div class="imgs-fab">
-                        <img class="fab-01" src="imgs/fab-05.jpeg">
-                        <img class="fab-02" src="imgs/fab-02.jpeg">
-                        <img class="fab-03" src="imgs/fab-06.jpeg">
-                        <img class="fab-04" src="imgs/fab-04.jpeg">
-                    </div>
-    			</div>
+    		<div class="container">
+				<div class="row pt-3">
+					<h2>A Evidence</h2>
+					<p>A Evidence Surfboards tem como shaper e designer Ricardo Fornas, que começou sua jornada no surf em uma das melhores 
+					empresas da época e esta há 20 anos no mercado de pranchas. Desde o começo com muita responsabilidade e empenho 
+					aprendeu os processos de fabricação de pranchas de todos os modelos 
+					e estilos, para em 2013 com grande bagagem profissional inaugurar a sua própria marca, a Evidence Surfboards.</p><br>
+					<p class="mb-0">Durante o processo de construção de sua futura fábrica o shaper Ricardo Fornas pensava em um modelo de atendimento
+					que abrangesse todos os tipos e características de surf de seus futuros clientes, desta forma dando espaço para que 
+					o cliente tenha total liberdade ao descrever sua prancha e portanto deixando-o a livre para encomendar a prancha de
+					seus sonhos.</p>
+				</div>
+			</div>
+    		<div class="container p-0">
+				<hr style="border-top: 1px solid rgba(0,0,0);">
+			</div>
+			<div class="container">
+				<div class="row">
+					<h2>Por dentro da fábrica Evidence:</h2>
+					<div class="imgs-fab text-center">
+						<img class="imgs-fabrica img-fluid mb-1" style="max-width: 60%;" src="imgs/fab-3.jpg">
+						<img class="imgs-fabrica img-fluid mb-1" style="max-width: 60%;" src="imgs/fab-4.jpg">
+						<img class="imgs-fabrica img-fluid mb-1" style="max-width: 60%;" src="imgs/fab-1.jpg">
+						<img class="imgs-fabrica img-fluid mb-1" style="max-width: 60%;" src="imgs/fab-5.jpg">
+						<img class="imgs-fabrica img-fluid mb-1" style="max-width: 60%;" src="imgs/fab-2.jpg">
+					</div>
+				</div>
+			</div>
     	</main>
 
-    	<section class="container-contato">
-	    	<h3>CONTATO</h3>
-	    	<ul>
-	    		<li>Evidence - Surfboards</li>
-	    		<li>Av. Dr. Nilo Peçanha N°1172</li>
-	    		<li>Marapé, Santos, São Paulo</li>
-	    		<li>CEP: 11050-070</li>
-	    		<li>Tel.: (13) 99721-9727</li>
-	    		<li>Email: evidencesurfboards@hotmail.com</li>
-	    	</ul>
-	    </section>
-
-	    <footer class="container-rodape">
-	    	<p>Evidence Surfboards 2018 - Todos os direitos reservados. <br>Proibida a reprodução parcial ou total de qualquer texto ou imagem sem prévia autorização <br>Desenvolvido por William Libero Silva.</p>
-	    	<h3>Redes sociais:</h3>
-	    	<ul>
-	    		<li><a href="https://www.instagram.com/evidencepranchas/" title="Instagram"><i class="fab fa-instagram"></i></a></li>
-	    		<li><a href="https://www.youtube.com/channel/UCpJBp3gg_t-tQt9f-Sar04w" title="Youtube"><i class="fab fa-youtube"></i></a></li>
-	    		<li><a href="https://www.facebook.com/Evidencepranchas/" title="Facebook"><i class="fab fa-facebook-square"></i></a></li>
-	    	</ul>
-	    </footer>
-         <script src="js/funcoes.js"></script> 
-
+    	<div class="container-fluid pt-1" style="color: white; background-color: #31769f; margin-top: 3%;">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<h3>CONTATO</h3>
+						<ul>
+							<li>Evidence - Surfboards</li>
+							<li>Rua São Judas Tadeu, N°23 - Fundos</li>
+							<li>Marapé, Santos, São Paulo</li>
+							<li>CEP: 11070-040</li>
+							<li>Tel.: (13) 99721-3727</li>
+							<li>Email: <span class="email-contato">evidencesurfboards@hotmail.com</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	    <div class="container-fluid pt-1" style="color: white;background-color: #808080;">
+			<div class="container container-rodape">
+				<div class="row">
+					<div class="col-md-9 col-sm-12" style="align-items: center; display: flex;">
+						<p>Evidence Surfboards 2018 - Todos os direitos reservados. <br>Proibida a reprodução parcial ou total de qualquer texto ou imagem sem prévia autorização. <br>Desenvolvido por William Libero Silva.</p>
+					</div>
+					<div class="col-sm-3">
+						<h5 class="mb-0">Redes sociais:</h5>
+						<div class="row" style="font-size: 30px; text-align: center;">
+							<div class="col-4">
+								<a style="color:white;" target="_blank" href="https://www.instagram.com/evidencepranchas/" title="Instagram">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</div>
+							<div class="col-4">
+								<a style="color:white;" target="_blank" href="https://www.youtube.com/channel/UCpJBp3gg_t-tQt9f-Sar04w" title="Youtube">
+									<i class="fab fa-youtube"></i>
+								</a>
+							</div>
+							<div class="col-4">
+								<a style="color:white;" target="_blank" href="https://www.facebook.com/Evidencepranchas/" title="Facebook"><i
+									 class="fab fa-facebook-square"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	    </div>
     </body>
 </html>
