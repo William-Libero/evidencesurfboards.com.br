@@ -1,11 +1,4 @@
 RewriteEngine on
-DirectoryIndex paginafacil.php default.html index.php index.html index.htm
-
-RewriteCond %{HTTP_HOST} ^evidencesurfboards.com.br [NC]
-RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^(.*)$ http://www.evidencesurfboards.com.br/$1 [L,R=301]
 
 RewriteCond %{http_host} ^www.evidencesurfboards.com.br [NC]
 RewriteRule ^(.*)$ https://evidencesurfboards.com.br/$1 [R=301,L]
@@ -82,15 +75,6 @@ BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
 AddType application/x-img img
 AddType image/jpeg jpe jpeg jpg
 AddType image/png png
-
-Options +FollowSymLinks
-RewriteEngine On
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^/]+/)*index\.html\ HTTP/
-RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^(([^/]+/)*)index\.html$ http://www.evidencesurfboards.com.br/$1 [R=301,L]
-#obs, se o seu site é feito em php, substitua os "html" pelo mesmo
 
 <IfModule mod_deflate.c>
   <FilesMatch "\.(js|css|jpg|png|gif|ico|php|html|htm)$">
