@@ -1,5 +1,10 @@
 RewriteEngine on
 
+# Redirecionar para HTTPS WC
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
 RewriteCond %{http_host} ^www.evidencesurfboards.com.br [NC]
 RewriteRule ^(.*)$ https://evidencesurfboards.com.br/$1 [R=301,L]
 
