@@ -36,6 +36,14 @@ h1{
 
 /* /////////////////////////////////////////////////////////// END RESET /////////////////////////////////////////////////////////////*/
 
+.longboards-slide{
+	height: 60vh; 
+    background-size: 100%;
+    background-position: 50% 35%;
+	background-image: url('../imgs/img-slider/surf-18.jpeg'); 
+	background-repeat: no-repeat;
+}
+
 .container-contato{
 	width: 100%;
 	background-color: #31769F;
@@ -88,6 +96,16 @@ h1{
 .whatsapp-button a:hover{
 	text-decoration: none;
     color: white;
+}
+
+@media screen and (max-width: 991px){
+	.longboards-slide{
+		height: 60vh; 
+		background-size:cover; 
+		background-position: 25%; 
+		background-image: url('../imgs/img-slider/surf-18.jpeg'); 
+		background-repeat: no-repeat;
+	}
 }
 
 @media screen and (max-width: 500px){
