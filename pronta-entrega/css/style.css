@@ -92,6 +92,17 @@ h1 {
   background-color: rgb(0, 0, 0, 0.6);
 }
 
+.carousel-item-responsive-img {
+  display: flex !important;
+  background-color: #b2b2b2;
+  justify-content: center;
+}
+
+.carousel-item-responsive-img img {
+  width: auto !important;
+  height: 467px;
+}
+
 @media screen and (max-width: 767px) {
   .buy-btn {
     margin-bottom: 15px;
